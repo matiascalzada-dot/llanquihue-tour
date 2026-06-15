@@ -1,5 +1,5 @@
 ![Duoc UC](https://www.duoc.cl/wp-content/uploads/2022/09/logo-0.png)
-# 🧠 Sumativa Semana 3 – Desarrollo Orientado a Objetos I
+# 🧠 Agencia de Tour – Desarrollo Orientado a Objetos I
 
 ## 👤 Autor del proyecto
 - **Nombre completo:** Matias ignacio Calzada Rodriguez
