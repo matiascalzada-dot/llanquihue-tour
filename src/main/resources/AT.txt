@@ -1,0 +1,6 @@
+Isla Huar;30500;30
+Isla Huar;14500;10
+Pucon; 50500;25
+Chiloe;1400;15
+El Quisco;10500;7
+Torres del Paine;120500;8
