@@ -62,7 +62,6 @@ public class GestorDatos {
                 listaLugares.add(tr);
             }
 
-
         }
         return listaLugares;
     }
