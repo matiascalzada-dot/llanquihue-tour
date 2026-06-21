@@ -39,9 +39,8 @@ public class Tour {
 //toString
     @Override
     public String toString() {
-        return "Tour" + "\n" +
-                "lugar = " + lugar + "\n" +
-                "precio = " + precio + "\n" +
-                "Dias = " + duracionDias + "\n";
+        return  "lugar = " + lugar + " /" +
+                " precio = " + precio + " /" +
+                " Dias = " + duracionDias ;
     }
 }

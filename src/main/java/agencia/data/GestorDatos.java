@@ -25,9 +25,7 @@ public class GestorDatos {
         try (BufferedReader br = new BufferedReader(new InputStreamReader(inputStream))) {
 
             String linea;
-
-                  while ((linea = br.readLine()) != null) {
-
+            while ((linea = br.readLine()) != null) {
                 String[] partes = linea.split(";");
 
                 if (partes.length == 3) {
@@ -36,22 +34,16 @@ public class GestorDatos {
                     int duracionDias = Integer.parseInt(partes[2].trim());
 
                     Tour t = new Tour(lugar, precio, duracionDias);
-
                     listaTours.add(t);
-
-
-
                 }
             }
-
         } catch (Exception e) {
             System.out.println("Ocurrió un error al procesar el archivo: " + e.getMessage());
         }
-
         return listaTours;
-                }
+    }
 
-    public List<Tour> filtroDias(List<Tour> listaCompleta, int diasMinimo){
+    public List<Tour> filtroDias(List<Tour> listaCompleta, int diasMinimo) {
         List<Tour> listaFiltrada = new ArrayList<>();
 
         for (Tour t : listaCompleta) {
@@ -62,7 +54,22 @@ public class GestorDatos {
         return listaFiltrada;
     }
 
+    public List<Tour> filtroLugares(List<Tour> listaCompleta, String palabra) {
+        List<Tour> listaLugares = new ArrayList<>();
+
+        for (Tour tr : listaCompleta) {
+            if (tr.getLugar().equals(palabra)){
+                listaLugares.add(tr);
             }
+
+
+        }
+        return listaLugares;
+    }
+
+}
+
+
 
 
 
