@@ -10,7 +10,8 @@
 ---
 
 ## 📘 Descripción general del sistema
-Este proyecto resuelve la problematica de la agencia de tour, gestioanr de manera mas eficiente las informacion de sus tipos clasificados por tipo.
+Este proyecto resuelve la problematica de la agencia de tour, diseñando una jerarquía de clases
+que permita reutilizar elementos comunes y especializar otros.
 
 El proyecto fue desarrollado a partir de un caso contextualizado, abordando problemáticas reales y proponiendo una solución estructurada, modular y reutilizable.
 
@@ -20,10 +21,9 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 
 ```plaintext
 📁 src/
-├── data/        # GestorDatos
-├── model/       # Clases de dominio (Tour, etc.)
-├── ui/          # Main
-└── resource/    # AT.txt
+├── data2/        # GestorServicios
+├── model/       # Servicios (ExcursionCultural, Paseeo Cultural, RutaGastronomica, etc )
+└── ui2/          # MainServicios
 |
 ````
 
@@ -43,7 +43,7 @@ git clone https://github.com/matiascalzada-dot/llanquihue-tour.git
 
 3. Verifica que esten todas las clases.
 
-4. Ejecuta el archivo `Main` desde el paquete `ui`.
+4. Ejecuta el archivo `MainServicios` desde el paquete `ui2`.
 
 
 ---
