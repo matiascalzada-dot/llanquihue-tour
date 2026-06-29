@@ -21,9 +21,10 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 
 ```plaintext
 📁 src/
-├── data2/        # GestorServicios
-├── model/       # Servicios (ExcursionCultural, PaseoLacustre, RutaGastronomica, etc )
-└── ui2/          # MainServicios
+├── data2/          # GestorServicios
+├── model/       
+|    └── Servicios  # ExcursionCultural, PaseoLacustre, RutaGastronomica, etc.
+└── ui2/            # MainServicios
 |
 ````
 
