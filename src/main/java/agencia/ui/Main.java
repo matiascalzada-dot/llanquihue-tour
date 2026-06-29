@@ -14,8 +14,8 @@ public class Main {
         if (misTours.isEmpty()) {
             System.out.println("No se encontraron datos en el archivo 'AT'.");
         } else {
-            int diasLimite = 15;
-            String palabra = "Pucon";
+            int diasLimite = 9;
+            String palabra = "Isla Huar";
 
             List<Tour> tourFiltrados = gestor.filtroDias(misTours, diasLimite);
             List<Tour> fl = gestor.filtroLugares(misTours, palabra);
@@ -24,7 +24,7 @@ public class Main {
                 System.out.println(t);
             }
             System.out.println();
-            System.out.println("==== tour con mas de " + diasLimite + " dias: =====");
+            System.out.println("==== tours con mas de " + diasLimite + " dias: =====");
             if (tourFiltrados.isEmpty()) {
                 System.out.println("no se ha encontrado un tour con mas de " + diasLimite);
             } else {
@@ -34,7 +34,7 @@ public class Main {
             }
 
             System.out.println();
-            System.out.println("==== tour que contenga la palabra '" + palabra + "' :  =====");
+            System.out.println("==== tours que contenga la palabra '" + palabra + "' :  =====");
             if (fl.isEmpty()) {
                 System.out.println("no se ha encontrado un tour con la palabra: '" + palabra + "'");
             } else {

@@ -3,6 +3,7 @@ package agencia.data;
 import agencia.model.Tour;
 
 
+
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -66,7 +67,7 @@ public class GestorDatos {
         return listaLugares;
     }
 
-}
+    }
 
 
 
