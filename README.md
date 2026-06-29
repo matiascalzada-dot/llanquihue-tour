@@ -50,8 +50,8 @@ git clone https://github.com/matiascalzada-dot/llanquihue-tour.git
 ---
 
 **Repositorio GitHub:** \https://github.com/matiascalzada-dot/Matias_Calzada_sumativa_semana3/blob/main/README.md
-**Fecha de entrega:** \[15/06/2026]
+**Fecha de entrega:** \[29/06/2026]
 
 ---
 
-© Duoc UC | Escuela de Informática y Telecomunicaciones | Evaluacion Sumativa de la semana 3
+© Duoc UC | Escuela de Informática y Telecomunicaciones | Diseñando Jerarquias De Clases
