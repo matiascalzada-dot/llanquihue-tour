@@ -22,8 +22,7 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 📁 src/
 ├──agencia
     ├── data2/          # GestorServicios
-    ├── model2/       
-    |    └── Servicios  # ExcursionCultural, PaseoLacustre, RutaGastronomica, etc.
+    ├── model2/         # ExcursionCultural, PaseoLacustre, RutaGastronomica, etc.
     └── ui2/            # MainServicios
 |
 ````
