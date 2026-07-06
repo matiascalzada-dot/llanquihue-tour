@@ -1,69 +1,63 @@
 package agencia.data2;
 
-import agencia.model.servicios.PaseoLacustre;
-import agencia.model.servicios.RutaGastronomica;
-import agencia.model.servicios.Excursioncultural;
+import agencia.model2.PaseoLacustre;
+import agencia.model2.RutaGastronomica;
+import agencia.model2.Excursioncultural;
+import agencia.model2.ServicioTuristico;
 
-/**
- *  el metodo para las subclases de herencia
- */
+import java.util.ArrayList;
+import java.util.List;
+
+
 public class GestorServicios {
 
-    public void mostrarServicios() {
+    private final List<ServicioTuristico> Servicios;
 
 
-        RutaGastronomica ruta1 =
-                new RutaGastronomica(
-                        "Ruta del Salmón",
-                        4,
-                        "5");
-
-        RutaGastronomica ruta2 =
-                new RutaGastronomica(
-                        "Sabores del Sur",
-                        3,
-                        "4");
-
-        PaseoLacustre paseo1 =
-                new PaseoLacustre(
-                        "Lago Llanquihue",
-                        2,
-                        "Catamarán");
-
-        PaseoLacustre paseo2 =
-                new PaseoLacustre(
-                        "Todos los Santos",
-                        5,
-                        "Lancha");
-
-        Excursioncultural excursion1 =
-                new Excursioncultural(
-                        "Puerto Varas Histórico",
-                        3,
-                        "Iglesia del Sagrado Corazón");
-
-        Excursioncultural excursion2 = new Excursioncultural(
-                "Frutillar Patrimonial",
-                2,
-                "Teatro del Lago");
-
-        System.out.println(ruta1);
-        System.out.println();
-
-        System.out.println(ruta2);
-        System.out.println();
-
-        System.out.println(paseo1);
-        System.out.println();
-
-        System.out.println(paseo2);
-        System.out.println();
-
-        System.out.println(excursion1);
-        System.out.println();
-
-        System.out.println(excursion2);
+    public List<ServicioTuristico> getServicios() {
+        return Servicios;
     }
 
-}
+    public GestorServicios() {
+
+
+        Servicios = new ArrayList<>();
+
+        Servicios.add(new RutaGastronomica(
+                "Ruta del Salmón",
+                4,
+                "5"));
+
+        Servicios.add(new RutaGastronomica(
+                "Sabores del Sur",
+                3,
+                "4"));
+
+        Servicios.add(new PaseoLacustre(
+                "Lago Llanquihue",
+                2,
+                "Catamarán"));
+
+        Servicios.add(new PaseoLacustre(
+                "Todos los Santos",
+                5,
+                "Lancha"));
+
+        Servicios.add(new Excursioncultural(
+                "Puerto Varas Histórico",
+                3,
+                "Iglesia del Sagrado Corazón"));
+
+        Servicios.add(new Excursioncultural(
+                "Frutillar Patrimonial",
+                2,
+                "Teatro del Lago"));
+    }
+
+
+        }
+
+
+
+
 

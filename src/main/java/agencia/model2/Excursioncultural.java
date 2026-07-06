@@ -1,4 +1,4 @@
-package agencia.model.servicios;
+package agencia.model2;
 
 public class Excursioncultural extends ServicioTuristico{
     private final String lugarHistorico;
@@ -9,8 +9,8 @@ public class Excursioncultural extends ServicioTuristico{
     }
 
     @Override
-    public void mostrarDatosBase(){
-        super.mostrarDatosBase();
+    public void mostrarInformacion(){
+        super.mostrarInformacion();
         System.out.println("Lugar historico: " + lugarHistorico);
     }
     @Override

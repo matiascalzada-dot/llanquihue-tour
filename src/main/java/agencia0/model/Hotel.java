@@ -1,4 +1,4 @@
-package agencia.model;
+package agencia0.model;
 
 public class Hotel {
     private String nombre;

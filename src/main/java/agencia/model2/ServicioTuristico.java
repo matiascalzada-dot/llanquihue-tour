@@ -1,4 +1,4 @@
-package agencia.model.servicios;
+package agencia.model2;
 
 /**
  * Clase Padre
@@ -14,14 +14,14 @@ public class ServicioTuristico {
 
 
 
-    public void mostrarDatosBase(){
-        System.out.println("Nombre: " + nombre);
+    public void mostrarInformacion(){
+        System.out.println("\nNombre: " + nombre);
         System.out.println("Duración: " + duracionHoras);
     }
 
     @Override
     public String toString() {
-        return "ServicioTuristico" +
+        return "\n ServicioTuristico" +
                 "\n nombre: " + nombre +
                 "\n duracion: " + duracionHoras;
     }

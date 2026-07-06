@@ -1,4 +1,4 @@
-package agencia.model.servicios;
+package agencia.model2;
 
 public class PaseoLacustre extends ServicioTuristico{
     private final String tipoEmbarcacion;
@@ -9,8 +9,8 @@ public class PaseoLacustre extends ServicioTuristico{
     }
 
     @Override
-    public void mostrarDatosBase(){
-        super.mostrarDatosBase();
+    public void mostrarInformacion(){
+        super.mostrarInformacion();
         System.out.println("Tipo de embarcación: " + tipoEmbarcacion);
     }
     @Override
