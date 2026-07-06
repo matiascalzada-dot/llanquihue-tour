@@ -48,7 +48,7 @@ git clone https://github.com/matiascalzada-dot/llanquihue-tour.git
 
 ---
 
-**Repositorio GitHub:** \https://github.com/matiascalzada-dot/Matias_Calzada_sumativa_semana3/blob/main/README.md
+**Repositorio GitHub:** \https://github.com/matiascalzada-dot/llanquihue-tour
 **Fecha de entrega:** \[05/07/2026]
 
 ---
