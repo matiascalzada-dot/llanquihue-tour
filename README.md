@@ -10,8 +10,7 @@
 ---
 
 ## 📘 Descripción general del sistema
-Este proyecto resuelve la problematica de la agencia de tour, diseñando una jerarquía de clases
-que permita reutilizar elementos comunes y especializar otros.
+Este proyecto resuelve la problematica de la agencia de tour, creando una coleccion para almacenar los servicios turisticos, recorrerlos y mostrarlos en pantalla con los metodos especiales de cada subclase.
 
 El proyecto fue desarrollado a partir de un caso contextualizado, abordando problemáticas reales y proponiendo una solución estructurada, modular y reutilizable.
 
@@ -21,10 +20,11 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 
 ```plaintext
 📁 src/
-├── data2/          # GestorServicios
-├── model/       
-|    └── Servicios  # ExcursionCultural, PaseoLacustre, RutaGastronomica, etc.
-└── ui2/            # MainServicios
+├──agencia
+    ├── data2/          # GestorServicios
+    ├── model2/       
+    |    └── Servicios  # ExcursionCultural, PaseoLacustre, RutaGastronomica, etc.
+    └── ui2/            # MainServicios
 |
 ````
 
@@ -50,8 +50,8 @@ git clone https://github.com/matiascalzada-dot/llanquihue-tour.git
 ---
 
 **Repositorio GitHub:** \https://github.com/matiascalzada-dot/Matias_Calzada_sumativa_semana3/blob/main/README.md
-**Fecha de entrega:** \[29/06/2026]
+**Fecha de entrega:** \[05/07/2026]
 
 ---
 
-© Duoc UC | Escuela de Informática y Telecomunicaciones | Diseñando Jerarquias De Clases
+© Duoc UC | Escuela de Informática y Telecomunicaciones | Sistema para Llanquihue tour
