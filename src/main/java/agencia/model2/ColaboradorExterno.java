@@ -1,15 +1,19 @@
 package agencia.model2;
 
-public class ColaboradorExterno implements Registrable{
+public class ColaboradorExterno extends Persona implements Registrable{
 
-    private final String nombre;
+    private String edad;
 
     public ColaboradorExterno(String nombre) {
-        this.nombre = nombre;
+        super(nombre);
+    }
+    public ColaboradorExterno(String nombre, String edad) {
+        super(nombre);
+        this.edad = edad;
     }
 
     @Override
     public void mostrarResumen() {
-        System.out.println("Colaborador "+ nombre + " registrado");
+        System.out.println("Colaborador "+ getNombre() + " registrado");
     }
 }
