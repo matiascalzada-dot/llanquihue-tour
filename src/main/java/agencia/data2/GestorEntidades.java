@@ -10,6 +10,7 @@ import java.util.ArrayList;
 
 public class GestorEntidades {
 
+
     private final ArrayList<Registrable> registro;
 
     public GestorEntidades() {
@@ -28,12 +29,12 @@ public class GestorEntidades {
 
             entidad.mostrarResumen();
 
-            switch (entidad) {
-                case GuiaTuristico _ -> System.out.println("Tipo: Guía Turístico");
-                case Vehiculo _ -> System.out.println("Tipo: Vehículo");
-                case ColaboradorExterno _ -> System.out.println("Tipo: Colaborador Externo");
-                default -> {
-                }
+            if (entidad instanceof GuiaTuristico) {
+                System.out.println("Tipo: Guía Turístico");
+            } else if (entidad instanceof Vehiculo) {
+                System.out.println("Tipo: Vehículo");
+            } else if (entidad instanceof ColaboradorExterno) {
+                System.out.println("Tipo: Colaborador Externo");
             }
 
             System.out.println("-----------------------");
