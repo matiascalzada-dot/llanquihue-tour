@@ -10,7 +10,7 @@
 ---
 
 ## 📘 Descripción general del sistema
-Este proyecto resuelve la problematica de la agencia de tour, creando una coleccion para almacenar los servicios turisticos, recorrerlos y mostrarlos en pantalla con los metodos especiales de cada subclase.
+Este proyecto resuelve la problematica de la agencia de tour, extendendiendo el sistema para incluir nuevas entidades, aplicar interfaces, organizar los objetos en una colección y diferenciarlos en tiempo de ejecución.
 
 El proyecto fue desarrollado a partir de un caso contextualizado, abordando problemáticas reales y proponiendo una solución estructurada, modular y reutilizable.
 
@@ -21,8 +21,8 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 ```plaintext
 📁 src/
 ├──agencia
-    ├── data2/          # GestorServicios
-    ├── model2/         # ExcursionCultural, PaseoLacustre, RutaGastronomica, etc.
+    ├── data2/          # GestorEntidades
+    ├── model2/         # Registrable, ColaboradorExterno, Vehiculo, GuiaTuristico, etc.
     └── ui2/            # MainServicios
 |
 ````
@@ -49,7 +49,7 @@ git clone https://github.com/matiascalzada-dot/llanquihue-tour.git
 ---
 
 **Repositorio GitHub:** \https://github.com/matiascalzada-dot/llanquihue-tour
-**Fecha de entrega:** \[05/07/2026]
+**Fecha de entrega:** \[12/07/2026]
 
 ---
 
